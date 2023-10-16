@@ -1,0 +1,26 @@
+{
+  "name": "namaste_react",
+  "version": "1.0.0",
+  "description": "This is Namaste React.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "author": "suprit",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@types/react": "^18.2.23",
+    "@types/react-dom": "^18.2.7",
+    "parcel": "^2.10.0",
+    "postcss": "^8.4.31",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "react": "^0.0.0-experimental-dddfe6882-20231005",
+    "react-dom": "^0.0.0-experimental-dddfe6882-20231005",
+    "react-router-dom": "^6.16.0"
+  }
+}

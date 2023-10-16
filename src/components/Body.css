@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    gap: 5px; 
+  } 
+
+.load-more {
+    background-color: #76daff;
+    background-image: linear-gradient(315deg, #76daff 0%, #fcd000 74%);
+    border-radius: 6px;
+    border: 1px solid #c6c6c6;
+    color: #444;
+    padding: 0.5rem 1.5rem;
+    min-width: 20%;
+    margin-top: 1rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer; 
+    position: absolute;
+    left: 40%;
+}
+
+.load-more:hover {
+    background-color: #ff0000;
+    background-image: linear-gradient(315deg, #ff0000 0%, #ffed00 74%);
+}
+
+

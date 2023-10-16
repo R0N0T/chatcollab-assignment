@@ -1,0 +1,19 @@
+@import 'PokemonThumbnail.css';
+.close-button {
+    color: black;
+    background-image: linear-gradient(315deg, #76daff 0%, #6792ea 74%);
+    font-weight: bolder;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem;
+    border: none;
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.close-button:focus {
+    outline: none;
+}
